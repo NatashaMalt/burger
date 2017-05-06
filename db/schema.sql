@@ -1,3 +1,5 @@
+CREATE DATABADE burger_db;
+
 USE burger_db;
 
 CREATE TABLE burger(
@@ -8,3 +10,5 @@ CREATE TABLE burger(
   date TIMESTAMP,
   PRIMARY KEY (id)
 );
+
+SELECT * FROM burger;
